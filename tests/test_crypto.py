@@ -55,9 +55,9 @@ def test_multihash_length_validated():
 
 
 def test_hashcash_mint_then_verify():
-    hc = HashCash.mint("brian@resolvingarchitecture.dev", 12)
+    hc = HashCash.mint("brian@resolvingarchitecture.io", 12)
     assert hc.computed_bits() >= 12
-    assert hc.is_valid_for("brian@resolvingarchitecture.dev", 12)
+    assert hc.is_valid_for("brian@resolvingarchitecture.io", 12)
     assert not hc.is_valid_for("someone.else", 12)
     reparsed = HashCash.parse(hc.token)
     assert reparsed.resource == hc.resource

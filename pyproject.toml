@@ -9,7 +9,7 @@ description = "Resolving Architecture - Common - Python. Core messaging, identit
 readme = "README.md"
 requires-python = ">=3.13"
 license = { text = "MIT" }
-authors = [{ name = "Brian Taylor", email = "brian@resolvingarchitecture.dev" }]
+authors = [{ name = "Brian Taylor", email = "brian@resolvingarchitecture.io" }]
 keywords = ["messaging", "envelope", "identity", "did", "crypto"]
 classifiers = [
     "Programming Language :: Python :: 3.13",
@@ -20,7 +20,7 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://resolvingarchitecture.dev"
+Homepage = "https://resolvingarchitecture.io"
 Repository = "https://github.com/resolvingarchitecture/ra-common-python"
 
 [project.optional-dependencies]
